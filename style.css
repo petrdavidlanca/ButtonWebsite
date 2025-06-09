@@ -1,0 +1,40 @@
+/* styles.css with more color */
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: background 0.5s ease-in-out;
+}
+
+.container {
+  text-align: center;
+}
+
+button {
+  padding: 20px 60px;
+  font-size: 2rem;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(145deg, #ff6ec4, #7873f5);
+  color: white;
+  box-shadow: 8px 8px 16px rgba(0,0,0,0.2), -8px -8px 16px rgba(255,255,255,0.4);
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background: linear-gradient(145deg, #f093fb, #f5576c);
+  box-shadow: 4px 4px 8px rgba(0,0,0,0.2), -4px -4px 8px rgba(255,255,255,0.4);
+  transform: scale(1.08) rotate(-1deg);
+}
+
+button:active {
+  background: linear-gradient(145deg, #fc6767, #ec008c);
+  box-shadow: inset 4px 4px 8px rgba(0,0,0,0.2), inset -4px -4px 8px rgba(255,255,255,0.4);
+  transform: scale(0.96);
+}
